@@ -4,10 +4,10 @@ import {Link, NavLink} from 'react-router-dom'
 
 const Navigation = () => (
     <div className='nav-bar'>
-        {/* <Link className='logo' to='/'> */}
+        <Link className='logo' to='/'>
             {/* TODO: logo image */}
             {/* <img src={Logo} alt="logo"/> */}
-        {/* </Link> */}
+        </Link>
         <nav>
             {/* Remove Home after I put in Logo image */}
             {/* TODO: Make the navigation links prettier */}
