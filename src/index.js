@@ -10,15 +10,11 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <App />
+      <p>text inside of browserrouter</p>
     </BrowserRouter>
+    <p>some text outside of browserrouter but inside strictmode</p>
   </React.StrictMode>
 );
-
-app.use(express.static(__dirname));
-
-app.get("/*", function(req, res) {
-  res.sendFile(path.join(__dirname, "index.html"));
-});
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
