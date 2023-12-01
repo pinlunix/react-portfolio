@@ -1,11 +1,14 @@
 .nav-bar {
-    background: #181818;
+    background: white;
     width: 100%;
     height: 60px;
     position: absolute;
     top: 0;
-    z-index: 0;
+    z-index: 3;
     min-width: 500px;
+
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo {
@@ -17,5 +20,53 @@
         margin: 8px auto;
         width: 24ps;
         height: auto;
+    }
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-right: 0px;
+
+    a {
+        font-size: 22px;
+        color: #4d4d4e;
+        display: block;
+        line-height: 51px;
+        height: 100%;
+        position: relative;
+        text-decoration: none;
+        padding: 15px;
+
+        i {
+            transition: all 0.3s ease-out;
+        }
+
+        &:hover {
+            color: darkorchid;
+        }
+    }
+}
+
+ul {
+    position: relative;
+    display: flex;
+    padding: 20px;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+
+    li {
+        a {
+            padding: 10px;
+            display: block;
+            font-size: 15px;
+            line-height: 16px;
+
+            &:hover svg{
+                color: darkorchid;
+            }
+        }
     }
 }

@@ -1,6 +1,11 @@
 import './index.scss'
 import {Link, NavLink} from 'react-router-dom'
 // import Logo from '../../assets/images/logo.png'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import{
+    faLinkedin,
+    faGithub,
+} from '@fortawesome/free-brands-svg-icons'
 
 const Navigation = () => (
     <div className='nav-bar'>
@@ -24,6 +29,26 @@ const Navigation = () => (
                 Resume
             </NavLink>
         </nav>
+        <ul>
+            <li>
+                <a 
+                    target="_blank" 
+                    rel='noreferer' 
+                    href='https://www.linkedin.com/in/victoria-lam-rainbow/'
+                >
+                    <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e"/>
+                </a>
+            </li>
+            <li>
+                <a 
+                    target="_blank" 
+                    rel='noreferer' 
+                    href='https://github.com/pinlunix'
+                >
+                    <FontAwesomeIcon icon={faGithub} color="#4d4d4e"/>
+                </a>
+            </li>
+        </ul>
     </div>
 
 )

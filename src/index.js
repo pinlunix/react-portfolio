@@ -10,9 +10,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <App />
-      <p>text inside of browserrouter</p>
     </BrowserRouter>
-    <p>some text outside of browserrouter but inside strictmode</p>
   </React.StrictMode>
 );
 
