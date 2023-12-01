@@ -8,6 +8,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Layout />}/>
     </Routes>
+    <p>hello!</p>
     </>
   );
 }
