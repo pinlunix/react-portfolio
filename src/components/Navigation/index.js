@@ -1,6 +1,6 @@
 import './index.scss'
 import {Link, NavLink} from 'react-router-dom'
-// import Logo from '../../assets/images/logo.png'
+import Logo from '../../assets/images/name_logo.png'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import{
     faLinkedin,
@@ -11,7 +11,7 @@ const Navigation = () => (
     <div className='nav-bar'>
         <Link className='logo' to='/'>
             {/* TODO: logo image */}
-            {/* <img src={Logo} alt="logo"/> */}
+            <img src={Logo} alt="logo"/>
         </Link>
         <nav>
             {/* Remove Home after I put in Logo image */}

@@ -1,13 +1,13 @@
 import './index.scss';
 import Navigation from '../Navigation';
-import Home from '../Home';
+import { Outlet } from 'react-router-dom'
 
 const Layout = () => {
     return (
     <div className="App">
         <Navigation />
         <div className='page'>
-            <Home />
+            <Outlet />
         </div>
     </div>
     )

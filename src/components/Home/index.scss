@@ -1,11 +1,32 @@
 .home-page {
+    position: block;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+
     .text-zone {
-        position: absolute;
-        left: 10%;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 40%;
-        max-height: 90%;
+        float: left;
+        width: 50%;
+
+        .text{
+            margin-top: 120px;
+            margin-left: 120px;
+        }
+    }
+
+    .profile-picture {
+        float: right;
+        width: 50%;
+
+        img {
+            margin-top: 120px;
+            margin-left: 25%;
+            border-radius: 50%;
+            border: 2px solid darkorchid;
+            width: 360px;
+            height: 360px; 
+        }
     }
 
     h1{
@@ -15,15 +36,14 @@
         font-family: 'Coolvetica';
         font-weight: 400; 
     }
-
 }
+
 
 h2{
     color: #8d8d8d;
     margin-top: 20px;
     font-weight: 400;
     font-size: 24px;
-    font-family: sans-serif;
     letter-spacing: 3px;
     animation: fadeIn 1s 1.8s backwards;
 }
@@ -45,5 +65,36 @@ h2{
     &:hover {
         background: darkorchid;
         color: #333;
+    }
+}
+
+.home-projects{
+    position: block;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+
+    .text-zone {
+        float: left;
+
+        .section-name{
+            color: white;
+            font-size: 36px;
+            margin: 0;
+            margin-left: 120px;
+            font-family: 'Coolvetica';
+            font-weight: 400; 
+        }
+
+        .projects-overview{
+            margin-left: 120px;
+            margin-top: 20px;
+            p{
+                color: white;
+                font-size: 18px;
+                font-weight: 400;
+            }
+        }
     }
 }
