@@ -47,8 +47,16 @@
     font-size: 14px;
   }
 
-  .btn-outline-primary{
+  .btn-primary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
     color: white;
+    background: black;
     text-decoration: none;
-    border-color: darkorchid;
+    border: 2px solid darkorchid;
+    border-radius: 50px;
+    font-size: 14px;
   }

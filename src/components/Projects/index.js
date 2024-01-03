@@ -10,7 +10,7 @@ const Projects = () => {
                 <h1 style={{textAlign:"center"}}>
                     Projects
                 </h1>
-                <h2 style={{textAlign:"center"}}>
+                <h2 className="projecth2" style={{textAlign:"center"}}>
                     Here are a few projects I've worked on recently.
                 </h2>
                 <Row style={{ justifyContent: "center", paddingBottom: "10px" }} className="grid-view">
