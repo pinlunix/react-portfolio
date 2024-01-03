@@ -12,7 +12,7 @@ const Home = () => {
                     <div className="text-zone">
                         <div className="text">
                             <h1>Hi, <br /> I'm Victoria</h1>
-                            <h2>UX/UI Researcher and Designer</h2>
+                            <h2 className="homeh2">UX/UI Researcher and Designer</h2>
                             <Link to="/about" className='flat-button'>ABOUT ME</Link>
                         </div>
                     </div>
@@ -24,9 +24,6 @@ const Home = () => {
                     <div className="text-zone">
                         <div className="section-name">
                             My Recent Works
-                        </div>
-                        <div className="projects-overview">
-                            <p>Here are a few projects I've worked on recently</p>
                         </div>
                     </div>
                 </div>

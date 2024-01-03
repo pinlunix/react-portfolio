@@ -1,12 +1,12 @@
 import './index.scss';
-import { Container, Row} from "react-bootstrap";
+import { Row } from "react-bootstrap";
 import ProjectCard from "../ProjectCards"
 import ASM from "../../assets/images/asm.jpg"
 
 const Projects = () => {
     return(
-        <Container fluid className="project-section">
-            <Container>
+        <div fluid className="project-section">
+            <div>
                 <h1 style={{textAlign:"center"}}>
                     Projects
                 </h1>
@@ -21,47 +21,47 @@ const Projects = () => {
                         projectLink="./ASM"
                     />
                     <ProjectCard
-                        title="Ancient Spanish Monastery"
-                        description="Website redesign for Ancient Spanish Monastery, a local historical site based in North Miami, Florida."
-                        // projectLink=""
+                        title="La Historia Museum"
+                        description="Website redesign for La Historia Museum, a local non-profit museum based in El Monte, California."
+                        projectLink="./LaHistoria"
                     />
                     <ProjectCard
-                        title="Ancient Spanish Monastery"
+                        title="Rhythmry"
                         description="Website redesign for Ancient Spanish Monastery, a local historical site based in North Miami, Florida."
-                        // projectLink=""
+                        projectLink="./Rhythmry"
                     />
                     <ProjectCard
-                        title="Ancient Spanish Monastery"
+                        title="WVS Data Mapping"
                         description="Website redesign for Ancient Spanish Monastery, a local historical site based in North Miami, Florida."
-                        // projectLink=""
+                        projectLink="./WVS"
                     /><ProjectCard
-                        title="Ancient Spanish Monastery"
+                        title="Graphic Novels"
                         description="Website redesign for Ancient Spanish Monastery, a local historical site based in North Miami, Florida."
-                        // projectLink=""
+                        projectLink="./Comics"
                     />
                     <ProjectCard
-                        title="Ancient Spanish Monastery"
+                        title="Plane Accidents"
                         description="Website redesign for Ancient Spanish Monastery, a local historical site based in North Miami, Florida."
-                        // projectLink=""
+                        projectLink="./Plane"
                     />
                     <ProjectCard
-                        title="Ancient Spanish Monastery"
+                        title="Debugger"
                         description="Website redesign for Ancient Spanish Monastery, a local historical site based in North Miami, Florida."
-                        // projectLink=""
+                        projectLink="./DebuggerGame"
                     />
                     <ProjectCard
+                        title="Untitled Gacha Game"
+                        description="Website redesign for Ancient Spanish Monastery, a local historical site based in North Miami, Florida."
+                        projectLink="./UGG"
+                    />
+                    {/* <ProjectCard
                         title="Ancient Spanish Monastery"
                         description="Website redesign for Ancient Spanish Monastery, a local historical site based in North Miami, Florida."
                         // projectLink=""
-                    />
-                    <ProjectCard
-                        title="Ancient Spanish Monastery"
-                        description="Website redesign for Ancient Spanish Monastery, a local historical site based in North Miami, Florida."
-                        // projectLink=""
-                    />
+                    /> */}
                 </Row>
-            </Container>
-        </Container>
+            </div>
+        </div>
     );
 }
 
