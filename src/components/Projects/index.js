@@ -18,7 +18,7 @@ const Projects = () => {
                         imgPath={ASM}
                         title="Ancient Spanish Monastery"
                         description="Website redesign for Ancient Spanish Monastery, a local historical site based in North Miami, Florida."
-                        // projectLink=""
+                        projectLink="./ASM"
                     />
                     <ProjectCard
                         title="Ancient Spanish Monastery"
