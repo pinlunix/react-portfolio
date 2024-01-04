@@ -23,7 +23,7 @@
             margin-top: 120px;
             margin-left: 25%;
             border-radius: 50%;
-            border: 2px solid darkorchid;
+            border: 2px solid white;
             width: 360px;
             height: 360px; 
         }
@@ -49,32 +49,15 @@
     animation: fadeIn 1s 1.8s backwards;
 }
 
-.flat-button{
-    color: darkorchid;
-    font-size: 15px;
-    font-weight: 400;
-    letter-spacing: 4px;
-    font-family: sans-serif;
-    text-decoration: none;
-    padding: 10px 10px;
-    border: 1px solid darkorchid;
-    margin-top: 25px;
-    float: left;
-    animation: fadeIn 1s 1.8s backwards;
-    white-space: nowrap;
-
-    &:hover {
-        background: darkorchid;
-        color: #333;
-    }
-}
-
 .home-about{
     position: block;
     display: flex;
     flex-direction: row;
-    height: 100%;
+    height: auto;
     width: 100%;
+    margin-bottom: 20px;
+
+    min-height: 200px;
 
     .text-zone {
         float: left;

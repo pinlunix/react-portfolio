@@ -1,6 +1,6 @@
-import { Link } from 'react-router-dom';
 import './index.scss';
 import Avatar from '../../assets/images/profile_pic.jpg'
+import Button from "react-bootstrap/Button";
 
 const Home = () => {
 
@@ -13,6 +13,20 @@ const Home = () => {
                         <div className="text">
                             <h1>Hi, <br /> I'm Victoria</h1>
                             <h2 className="homeh2">UX/UI Researcher and Designer</h2>
+                        </div>
+                        <div style={{display:"flex", marginLeft:"80px"}}>
+                            <Button
+                                href={"mailto:victorialam2002@gmail.com"}
+                                target="_blank"
+                            >
+                                Email
+                            </Button>
+                            <Button
+                                href="https://www.linkedin.com/in/victoria-lam-rainbow/"
+                                target="_blank"
+                            >
+                                LinkedIn
+                            </Button>
                         </div>
                     </div>
                     <div className="profile-picture">
