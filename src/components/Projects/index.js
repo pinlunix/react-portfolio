@@ -12,7 +12,7 @@ import UGGImg from "../../assets/images/ugg/title_screen.png"
 
 const Projects = () => {
     return(
-        <div fluid className="project-section">
+        <div className="project-section">
             <div>
                 <h1 style={{textAlign:"center"}}>
                     Projects

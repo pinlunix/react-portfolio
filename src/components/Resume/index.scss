@@ -3,6 +3,13 @@
     padding-top: 80px !important;
     padding-bottom: 30px !important;
     background-image: var(--section-background-color) !important;
+    // color: white !important;
+}
+
+.resume {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
 }
 
 button{
@@ -12,4 +19,15 @@ button{
     border: 2px solid darkorchid;
     border-radius: 50px;
     color: white;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+object{
+    height: 1115px;
+    width: 80%;
 }
