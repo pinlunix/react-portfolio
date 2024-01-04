@@ -20,7 +20,7 @@ h2{
     font-family: 'Coolvetica';
     font-weight: 1000;
     font-size: 24px;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     animation: none;
 }
 
@@ -31,11 +31,31 @@ h3{
     margin-left: 80px;
     font-family: 'Coolvetica';
     font-weight: 400;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
+}
+
+.subtitle{
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 80px;
+    font-family: 'Coolvetica';
+    font-weight: 400;
+    letter-spacing: 3px;
 }
 
 p{
     color: white;
+    font-size: 15px;
+    margin-left: 80px;
+    margin-right: 80px;
+    justify-content: center;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+
+.sub-text{
+    color: lightgray;
     font-size: 15px;
     margin-left: 80px;
     margin-right: 80px;
@@ -69,4 +89,21 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.bolded {
+    font-weight: bold;
+}
+
+ol{
+    list-style-type: circle;
+    color: white;
+    font-size: 15px;
+    margin-left: 80px;
+    margin-right: 80px;
+    justify-content: center;
+}
+
+a{
+    color: darkorchid;
 }

@@ -17,7 +17,7 @@ function ASM() {
             <div className="center">
                 <button>
                     <a
-                        href=""
+                        href="https://www.figma.com/proto/5jONNrPhVw589eSnmhchYk/Project-Portfolio?node-id=1-2&starting-point-node-id=1%3A2&scaling=scale-down-width&mode=design&t=U4gEabobrPRLYcUk-1"
                         target="_blank"
                     >
                         Full Case Study
@@ -66,7 +66,7 @@ function ASM() {
                     observed other visitors, and had fun touring the museum.
                 </p>
                 <img src={ FieldResearch } alt="Field Research Collage" />
-            <h2>USER STORIES</h2>
+            <h2>UX STORYTELLING</h2>
                 <p>
                     My target audience are children around 10 years of age. Since the goal is to help them learn about local history, 
                     one of my created user personas is Jonas, a 10-year old student who loves going to museums. 
