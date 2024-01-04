@@ -93,8 +93,9 @@ function Comics() {
                 <p>
                     This project gave me a fun reason to do research about graphic novels. I personally am a fan of reading web comics, but didn't 
                     know a lot about the history of graphic novels and their trends. 
-                    I got a lot of practice using Python to analyze datasets from a humanities perspective. Python has a lot of useful functions that 
-                    make cleaning datasets easy, such as removing table columns and imputing data.
+                    The project taught me how to use code from a humanities perspective. This was a new experience for me coming from a Computer Science background.
+                    I learned that Python has a lot of useful functions that make cleaning datasets easy and interesting libraries that are built around analyzing 
+                    text data.
                 </p>
         </div>
     )

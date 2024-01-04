@@ -85,7 +85,7 @@ function WVS() {
             <h2>REFLECTIONS</h2>
                 <p>
                     This project taught me the value of datasets containing geographic data and the trends that can be found from analyzing it. 
-                    I had the opportunity to practice cleaning datasets and learned how to create and understand map visualizations using ArcGIS.
+                    I had the opportunity to practice cleaning large datasets and learned how to create and understand map visualizations using ArcGIS.
                 </p>
         </div>
     )
