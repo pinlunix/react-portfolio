@@ -1,5 +1,6 @@
 // Plane Project
 import "./projectStyle.scss"
+import Button from "react-bootstrap/Button";
 import HeaderImage from ".././assets/images/plane/ross-parmly-airplane.jpg"
 import Scatterplot from ".././assets/images/plane/incidents_accidents_plot.png"
 
@@ -10,14 +11,14 @@ function Plane() {
             {/* Insert image */}
             <img style={{width:"90%", marginTop:"10px", marginBottom:"10px"}} src={ HeaderImage } alt="Mapping Project Website Screenshot" />
             <div className="center">
-                <button>
-                    <a
-                        href="https://airlinesafety22.humspace.ucla.edu/"
-                        target="_blank"
-                    >
-                        Visit Website
-                    </a>
-                </button>
+                <Button
+                    variant="primary"
+                    href="https://airlinesafety22.humspace.ucla.edu/"
+                    target="_blank"
+                    style={{ maxWidth: "250px", color:"white" }}
+                >
+                    Visit Website
+                </Button>
             </div>
             <div className="project-info">
                 <div className="subtitle">PROJECT MEMBERS</div>

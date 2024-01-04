@@ -1,5 +1,6 @@
 // HUE Internship: La Historia Project
 import "./projectStyle.scss"
+import Button from "react-bootstrap/Button";
 import Museum from ".././assets/images/lahistoria/lahistoria.png"
 import UserPersona from ".././assets/images/lahistoria/jessica_persona_james.png"
 import UserJourney from ".././assets/images/lahistoria/jessica_journey_james.png"
@@ -13,22 +14,14 @@ function LaHistoria() {
             <h1 style={{textAlign:"center"}}>La Historia Historical Society Museum</h1>
             <img style={{width:"90%", marginTop:"10px", marginBottom:"10px"}} src={ Museum } alt="La Historia Museum Home Page" />
             <div className="center">
-                <button>
-                    <a
-                        href=""
-                        target="_blank"
-                    >
-                        Full Case Study
-                    </a>
-                </button>
-                <button>
-                    <a
-                        href="https://www.lahistoriamuseum.org/"
-                        target="_blank"
-                    >
-                        Visit Website
-                    </a>
-                </button>
+                <Button
+                    variant="primary"
+                    href="https://www.lahistoriamuseum.org/"
+                    target="_blank"
+                    style={{ maxWidth: "250px", color:"white" }}
+                >
+                    Visit Website
+                </Button>
             </div>
             <div className="project-info">
                 <div className="subtitle">CLIENT</div>

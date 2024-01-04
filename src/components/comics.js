@@ -1,5 +1,6 @@
 // Graphic Novels
 import "./projectStyle.scss"
+import Button from "react-bootstrap/Button";
 import HeaderImg from ".././assets/images/comics/erik-mclean-comics.jpg"
 import ExploreBookTable from ".././assets/images/comics/explore_book.png"
 import ExploreBookGraph from ".././assets/images/comics/explore_book_graph.png"
@@ -11,14 +12,14 @@ function Comics() {
             <h1 style={{textAlign:"center"}}>Graphic Novels Data Analysis Python Project</h1>
             <img style={{width:"90%", marginTop:"10px", marginBottom:"10px"}} src={ HeaderImg } alt="Image of Comic Books" />
             <div className="center">
-                <button>
-                    <a
-                        href="https://pinlunix.github.io/dh140blog/posts/GNCProject.html"
-                        target="_blank"
-                    >
-                        Visit Website
-                    </a>
-                </button>
+                <Button
+                    variant="primary"
+                    href="https://pinlunix.github.io/dh140blog/posts/GNCProject.html"
+                    target="_blank"
+                    style={{ maxWidth: "250px", color:"white" }}
+                >
+                    Visit Website
+                </Button>
             </div>
             <h2 >CONTEXT</h2>
                 <p>

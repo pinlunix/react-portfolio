@@ -1,5 +1,6 @@
 // ACM Studios SRS Untitled Gacha Game
 import "./projectStyle.scss"
+import Button from "react-bootstrap/Button";
 import HeaderImg from ".././assets/images/ugg/title_screen.png"
 import Card from ".././assets/images/ugg/view_card.jpg"
 import Dragon from ".././assets/images/ugg/dragon_2d_card_art_rendered.png"
@@ -12,14 +13,14 @@ function UGG() {
             <h1 style={{textAlign:"center"}}>Untitled Gacha Game</h1>
             <img style={{width:"90%", marginTop:"10px", marginBottom:"10px"}} src={ HeaderImg } alt="Title Screen Art of UGG" />
             <div className="center">
-                <button>
-                    <a
-                        href="https://austinlaw8.itch.io/untitled-gacha-game"
-                        target="_blank"
-                    >
-                        View Website
-                    </a>
-                </button>
+                <Button
+                    variant="primary"
+                    href="https://austinlaw8.itch.io/untitled-gacha-game"
+                    target="_blank"
+                    style={{ maxWidth: "250px", color:"white" }}
+                >
+                    View Website
+                </Button>
             </div>
             <div className="project-info">
                 <div className="subtitle">PROJECT MEMBERS</div>

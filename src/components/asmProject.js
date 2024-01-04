@@ -1,11 +1,11 @@
 // Ancient Spanish Monastery Project
 import "./projectStyle.scss"
+import Button from "react-bootstrap/Button";
 import HeaderImage from ".././assets/images/asm/proto_home.png"
 import FieldResearch from ".././assets/images/asm/field_research.png"
 import UserPersona from ".././assets/images/asm/jonas_persona.png"
 import CurHome from ".././assets/images/asm/current_homepage.png"
 import WireframeHome from ".././assets/images/asm/wireframe_home.png"
-import Wireframe from ".././assets/images/asm/wireframe.png"
 import DesignSys from ".././assets/images/asm/design_system.png"
 import Gallery from ".././assets/images/asm/gallery_page.png"
 import Visit from ".././assets/images/asm/visit_page.png"
@@ -16,22 +16,22 @@ function ASM() {
             <h1 style={{textAlign:"center"}}>Ancient Spanish Monastery</h1>
             <img style={{width:"90%", marginTop:"10px", marginBottom:"10px"}} src={ HeaderImage } alt="ASM" />
             <div className="center">
-                <button>
-                    <a
-                        href="https://www.figma.com/proto/5jONNrPhVw589eSnmhchYk/Project-Portfolio?node-id=1-2&starting-point-node-id=1%3A2&scaling=scale-down-width&mode=design&t=U4gEabobrPRLYcUk-1"
-                        target="_blank"
-                    >
-                        Full Case Study
-                    </a>
-                </button>
-                <button>
-                    <a
-                        href="https://www.figma.com/proto/FGPD8ANQnTUSHTXnMEhYad/High-Fidelity-Prototype?node-id=1-980&starting-point-node-id=1%3A980&mode=design&t=sGg4VvpBDo7aoo58-1"
-                        target="_blank"
-                    >
-                        High-Fidelity Prototype
-                    </a>
-                </button>
+                <Button
+                    variant="primary"
+                    href="https://www.figma.com/proto/5jONNrPhVw589eSnmhchYk/Project-Portfolio?node-id=1-2&starting-point-node-id=1%3A2&scaling=scale-down-width&mode=design&t=U4gEabobrPRLYcUk-1"
+                    target="_blank"
+                    style={{ maxWidth: "250px", color:"white" }}
+                >
+                    Full Case Study
+                </Button>
+                <Button
+                    variant="primary"
+                    href="https://www.figma.com/proto/FGPD8ANQnTUSHTXnMEhYad/High-Fidelity-Prototype?node-id=1-980&starting-point-node-id=1%3A980&mode=design&t=sGg4VvpBDo7aoo58-1"
+                    target="_blank"
+                    style={{ maxWidth: "250px", color:"white" }}
+                >
+                    High-Fidelity Prototype
+                </Button>
             </div>
             <h2>CONTEXT</h2>
                 <p>

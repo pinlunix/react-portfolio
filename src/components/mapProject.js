@@ -1,5 +1,6 @@
 // WVS Mapping Project
 import "./projectStyle.scss"
+import Button from "react-bootstrap/Button";
 import HeaderImage from ".././assets/images/wvs/wvs_home.png"
 import Abortion from ".././assets/images/wvs/abortion_map.png"
 
@@ -9,14 +10,14 @@ function WVS() {
             <h1 style={{textAlign:"center"}}>Mapping Values: How Social values Shape Our World</h1>
             <img style={{width:"90%", marginTop:"10px", marginBottom:"10px"}} src={ HeaderImage } alt="Mapping Project Website Screenshot" />
             <div className="center">
-                <button>
-                    <a
-                        href="https://storymaps.arcgis.com/stories/505321c54baf42b08766c95823e3b5cd"
-                        target="_blank"
-                    >
-                        Visit Website
-                    </a>
-                </button>
+                <Button
+                    variant="primary"
+                    href="https://storymaps.arcgis.com/stories/505321c54baf42b08766c95823e3b5cd"
+                    target="_blank"
+                    style={{ maxWidth: "250px", color:"white" }}
+                >
+                    Visit Website
+                </Button>
             </div>
             <div className="project-info">
                 <div className="subtitle">PROJECT MEMBERS</div>

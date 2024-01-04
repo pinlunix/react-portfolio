@@ -1,5 +1,6 @@
 // ACM Studios SRS Debugger
 import "./projectStyle.scss"
+import Button from "react-bootstrap/Button";
 import HeaderImg from ".././assets/images/debugger/debugger_home.png"
 import Clover from ".././assets/images/debugger/clover_npc_concept.png"
 import CloverLevel from ".././assets/images/debugger/clover_level.png"
@@ -16,14 +17,14 @@ function DebuggerGame() {
             <h1 style={{textAlign:"center"}}>Debugger</h1>
             <img style={{width:"90%", marginTop:"10px", marginBottom:"10px"}} src={ HeaderImg } alt="Mapping Project Website Screenshot" />
             <div className="center">
-                <button>
-                    <a
-                        href="https://raddishradish.itch.io/debugger"
-                        target="_blank"
-                    >
-                        View Website
-                    </a>
-                </button>
+                <Button
+                    variant="primary"
+                    href="https://raddishradish.itch.io/debugger"
+                    target="_blank"
+                    style={{ maxWidth: "250px", color:"white" }}
+                >
+                    View Website
+                </Button>
             </div>
             <div className="project-info">
                 <div className="subtitle">PROJECT MEMBERS</div>

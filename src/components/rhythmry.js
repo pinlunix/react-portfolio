@@ -1,5 +1,6 @@
 // Rhythmry
 import "./projectStyle.scss"
+import Button from "react-bootstrap/Button";
 import HeaderImg from ".././assets/images/rhythmry/c-d-x-_music.jpg"
 import UserPersona from ".././assets/images/rhythmry/persona_1.png"
 import UserJourney from ".././assets/images/rhythmry/persona1_journeymap.png"
@@ -13,22 +14,22 @@ function Rhythmry() {
             <h1 style={{textAlign:"center"}}>Rhythmry</h1>
             <img style={{width:"90%", marginTop:"10px", marginBottom:"10px"}} src={ HeaderImg } alt="Image of headphones" />
             <div className="center">
-                <button>
-                    <a
-                        href="https://pinlunix.github.io/dh199/"
-                        target="_blank"
-                    >
-                        Full Case Study
-                    </a>
-                </button>
-                <button>
-                    <a
-                        href="https://xd.adobe.com/view/3d1b72e1-1ee8-44dd-9409-06a3c1781455-6848/"
-                        target="_blank"
-                    >
-                        High-Fidelity Prototype
-                    </a>
-                </button>
+                <Button
+                    variant="primary"
+                    href="https://pinlunix.github.io/dh199/"
+                    target="_blank"
+                    style={{ maxWidth: "250px", color:"white" }}
+                >
+                    Full Case Study
+                </Button>
+                <Button
+                    variant="primary"
+                    href="https://xd.adobe.com/view/3d1b72e1-1ee8-44dd-9409-06a3c1781455-6848/"
+                    target="_blank"
+                    style={{ maxWidth: "250px", color:"white" }}
+                >
+                    High-Fidelity Prototype
+                </Button>
             </div>
             <h2>CONTEXT</h2>
                 <p>
@@ -128,14 +129,14 @@ function Rhythmry() {
                 </div>
                 
                 <div className="center">
-                    <button>
-                        <a
-                            href="https://xd.adobe.com/view/3d1b72e1-1ee8-44dd-9409-06a3c1781455-6848/"
-                            target="_blank"
-                        >
-                            High-Fidelity Prototype
-                        </a>
-                    </button>
+                    <Button
+                        variant="primary"
+                        href="https://xd.adobe.com/view/3d1b72e1-1ee8-44dd-9409-06a3c1781455-6848/"
+                        target="_blank"
+                        style={{ maxWidth: "250px", color:"white" }}
+                    >
+                        High-Fidelity Prototype
+                    </Button>
                 </div>
             <h2>USER TESTING</h2>
                 <p>
