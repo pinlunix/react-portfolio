@@ -71,6 +71,10 @@ img{
     width: 50%;
 }
 
+img.scaled {
+    width: 80%;
+  }
+
 button{
     margin: 10px;
     padding: 10px;
@@ -106,4 +110,21 @@ ol{
 
 a{
     color: darkorchid;
+}
+
+figure{
+    border: 1px #cccccc solid;
+    padding: 4px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+figcaption {
+    color: white;
+    font-style: italic;
+    font-size: 12px;
+    padding: 2px;
+    text-align: center;
 }

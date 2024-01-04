@@ -1,11 +1,17 @@
 // HUE Internship: La Historia Project
 import "./projectStyle.scss"
+import Museum from ".././assets/images/lahistoria/lahistoria.png"
+import UserPersona from ".././assets/images/lahistoria/jessica_persona_james.png"
+import UserJourney from ".././assets/images/lahistoria/jessica_journey_james.png"
+import Exhibitions from ".././assets/images/lahistoria/exhibitions_page.png"
+import Support from ".././assets/images/lahistoria/support_page.png"
+
 
 function LaHistoria() {
     return(
         <div className="viewing-section">
             <h1 style={{textAlign:"center"}}>La Historia Historical Society Museum</h1>
-            {/* Insert image */}
+            <img style={{width:"100%", marginTop:"10px", marginBottom:"10px"}} src={ Museum } alt="La Historia Museum Home Page" />
             <div className="center">
                 <button>
                     <a
@@ -98,7 +104,20 @@ function LaHistoria() {
                     We created six personas informed by our field research’s conclusions. Below is one of the personas depicting Jessica Kohn, 
                     a woman not from El Monte but is interested in local history. Her journey map depicts how she would use La Historia’s website to donate money.
                 </p>
-                {/* Image of persona */}
+                {/* Images of persona */}
+                <div className="center">
+                    <figure>
+                        <img class="scaled" src={ UserPersona } alt="Jessica's User Persona" />
+                        <figcaption>Jessica's User Persona, created by James Yoon</figcaption>
+                    </figure>
+                    
+                </div>
+                <div className="center">
+                    <figure>
+                        <img class="scaled" src={ UserJourney } alt="Jessica's User Journey" />
+                        <figcaption>Jessica's Journey Map, created by James Yoon</figcaption>
+                    </figure>
+                </div>
             <h2>INFORMATION ARCHITECTURE</h2>
                 <p>
                     We conducted a content inventory to identify buttons and content, then reorganize and improve the flow. 
@@ -107,6 +126,7 @@ function LaHistoria() {
                     and selected Wordpress.org, Webflow, and Google Sites as our recommendations to the La Historia Board. 
                     We created demo videos explaining how to use each CMS.
                 </p>
+                <p>My demo video about Wordpress.org: <a href="https://youtu.be/C5KhDBjIp-0?si=TpZ2WuYMyeP3aiKD">Wordpress Demo</a></p>
                 <p>
                     In the end, Google Sites was selected as our CMS.
                 </p>
@@ -122,6 +142,20 @@ function LaHistoria() {
                     how to update and maintain the website, including information for connecting Google forms to an email and 
                     updating the website with multimedia content.
                 </p>
+                <div className="center">
+                    <figure>
+                        <img class="scaled" src={ Exhibitions } alt="Exhibitions Page" />
+                        <figcaption>Exhibitions page screenshot</figcaption>
+                    </figure>
+                </div>
+                <div className="center">
+                    <figure>
+                        <img class="scaled" src={ Support } alt="Support Page" />
+                        <figcaption>Support page screenshot</figcaption>
+                    </figure>
+                </div>
+                
+                
             <h2>REFLECTIONS</h2>
                 <p>
                     This project illustrated how UX/UI can be used to reinvigorate a nonprofit’s web presence. 

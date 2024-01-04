@@ -1,7 +1,9 @@
 import './index.scss';
 import { Row } from "react-bootstrap";
 import ProjectCard from "../ProjectCards"
-import ASM from "../../assets/images/asm.jpg"
+import ASMImg from "../../assets/images/asm/proto_home.png"
+import LaHistoriaImg from "../../assets/images/lahistoria/lahistoria.png"
+// import RhythmryImg from '../../assets/images/rhythmry/
 
 const Projects = () => {
     return(
@@ -15,12 +17,13 @@ const Projects = () => {
                 </h2>
                 <Row style={{ justifyContent: "center", paddingBottom: "10px" }} className="grid-view">
                     <ProjectCard
-                        imgPath={ASM}
+                        imgPath={ASMImg}
                         title="Ancient Spanish Monastery"
                         description="Website redesign for Ancient Spanish Monastery, a local historical site based in North Miami, Florida."
                         projectLink="./ASM"
                     />
                     <ProjectCard
+                        imgPath={LaHistoriaImg}
                         title="La Historia Museum"
                         description="Website redesign for La Historia Museum, a local non-profit museum based in El Monte, California."
                         projectLink="./LaHistoria"

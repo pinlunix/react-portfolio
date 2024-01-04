@@ -1,5 +1,6 @@
 // Ancient Spanish Monastery Project
 import "./projectStyle.scss"
+import HeaderImage from ".././assets/images/asm/proto_home.png"
 import FieldResearch from ".././assets/images/asm/field_research.png"
 import UserPersona from ".././assets/images/asm/jonas_persona.png"
 import CurHome from ".././assets/images/asm/current_homepage.png"
@@ -13,7 +14,7 @@ function ASM() {
     return(
         <div className="viewing-section">
             <h1 style={{textAlign:"center"}}>Ancient Spanish Monastery</h1>
-            {/* Insert image */}
+            <img style={{width:"100%", marginTop:"10px", marginBottom:"10px"}} src={ HeaderImage } alt="ASM" />
             <div className="center">
                 <button>
                     <a
@@ -65,19 +66,37 @@ function ASM() {
                     It was the perfect setup for me to act as a tourist. I took lots of photos, 
                     observed other visitors, and had fun touring the museum.
                 </p>
-                <img src={ FieldResearch } alt="Field Research Collage" />
+                <div className="center">
+                    <figure>
+                        <img class="scaled" src={ FieldResearch } alt="Field Research Collage" />
+                        <figcaption>Field Research Mood Board</figcaption>
+                    </figure>
+                </div>
+                
             <h2>UX STORYTELLING</h2>
                 <p>
                     My target audience are children around 10 years of age. Since the goal is to help them learn about local history, 
                     one of my created user personas is Jonas, a 10-year old student who loves going to museums. 
                     He is curious about the world and wants to learn more.
                 </p>
-                <img src={ UserPersona } alt="Jonas's User Persona" />
+                <div className="center">
+                    <figure>
+                        <img class="scaled" src={ UserPersona } alt="Jonas's User Persona" />
+                        <figcaption>Jonas Diaz's User Persona</figcaption>
+                    </figure>
+                </div>
+                
             <h2>WIREFRAMING</h2>
                 <p>
                     Here is what the current website's homepage looks like:
                 </p>
-                <img src={ CurHome } alt="Current Homepage of Ancient Spanish Monastery's website" />
+                <div className="center">
+                    <figure>
+                        <img class="scaled" src={ CurHome } alt="Current Homepage of Ancient Spanish Monastery's website" />
+                        <figcaption>Current website's home page</figcaption>
+                    </figure>
+                </div>
+                
                 <p>
                     The misalignment of items on the page is apparent at first glance. I will fix those while creating 
                     the prototype.
@@ -87,7 +106,13 @@ function ASM() {
                     to see on the navigation bar for a museum’s website. This goes towards helping me tackle the challenge of 
                     improving the navigation experience. Below is a wireframe of the home page.
                 </p>
-                <img src={ WireframeHome } alt="Wireframe of Homepage" />
+                <div className="center">
+                    <figure>
+                        <img class="scaled" src={ WireframeHome } alt="Wireframe of Homepage" />
+                        <figcaption>Wireframe of home page</figcaption>
+                    </figure>
+                </div>
+                
                 <p>
                     Thinking from the perspective of a visitor on a museum website, the first things I like to find is what is the location, 
                     how to visit, a photo gallery, and contact info. The original website does have this information, 
@@ -105,15 +130,31 @@ function ASM() {
                     Lato for body texts to keep it easy to read and simple without being distracting. 
                     The shapes of input boxes and buttons are slightly rounded with a drop shadow to indicate intractability.
                     </p>
-                    <img src={ DesignSys } alt="Design System of Redesign" />
+                    <div className="center">
+                    <figure>
+                        <img class="scaled" src={ DesignSys } alt="Design System of Redesign" />
+                        <figcaption>Interface Design System</figcaption>
+                    </figure>
+                    </div>
+                    
                 <h3>HIGH-FIDELITY PROTOTYPE</h3>
                     <p>
                         My final prototype is similar to the original website with the main changes being in the navigation, 
                         placement of information, and touching up item alignments. Here are a few screenshots of the final prototype:
                     </p>
-                    <img src={ Visit } alt="High-Fidelity Prototype Visit Page" />
-                    <br/>
-                    <img src={ Gallery } alt="High-Fidelity Prototype Visit Page" />
+                    <div className="center">
+                    <figure>
+                        <img class="scaled" src={ Visit } alt="High-Fidelity Prototype Visit Page" />
+                        <figcaption>High-Fidelity Prototype Visit Page</figcaption>
+                    </figure>
+                    </div>
+                    <div className="center">
+                    <figure>
+                        <img class="scaled" src={ Gallery } alt="High-Fidelity Prototype Gallery Page" />
+                        <figcaption>High-Fidelity Prototype Gallery Page</figcaption>
+                    </figure>
+                    </div>
+                    
             <h2>USER TESTING</h2>
                 <p>
                     I conducted usability testing over Zoom and found that the navigation did turn out to be simple and easy to understand. 
