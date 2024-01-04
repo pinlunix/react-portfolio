@@ -14,7 +14,7 @@ function ASM() {
     return(
         <div className="viewing-section">
             <h1 style={{textAlign:"center"}}>Ancient Spanish Monastery</h1>
-            <img style={{width:"100%", marginTop:"10px", marginBottom:"10px"}} src={ HeaderImage } alt="ASM" />
+            <img style={{width:"90%", marginTop:"10px", marginBottom:"10px"}} src={ HeaderImage } alt="ASM" />
             <div className="center">
                 <button>
                     <a
@@ -47,9 +47,9 @@ function ASM() {
                 My goal is to improve the design and usability of the Ancient Spanish Monastery’s website so that 
                 young visitors around the age of 10 can easily understand and navigate the website to learn about the historical site.
                 </p>
-                <br/>
                 <p>
                     The challenges I want to address:
+                </p>
                     <ol>
                         <li>
                             There are inconsistencies throughout the website’s formatting. It feels distracting to see items not aligned.
@@ -58,7 +58,7 @@ function ASM() {
                             Some information is found by clicking a link that opens a new page. This makes the navigation experience uncomfortable and complicated.
                         </li>
                     </ol>
-                </p>
+                
             <h2>FIELD RESEARCH</h2>
                 <p>
                     The monastery is just a 5-minute drive from my home in North Miami. 

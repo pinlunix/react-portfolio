@@ -3,7 +3,9 @@ import { Row } from "react-bootstrap";
 import ProjectCard from "../ProjectCards"
 import ASMImg from "../../assets/images/asm/proto_home.png"
 import LaHistoriaImg from "../../assets/images/lahistoria/lahistoria.png"
-// import RhythmryImg from '../../assets/images/rhythmry/
+import RhythmryImg from "../../assets/images/rhythmry/c-d-x-_music.jpg"
+import WVSImg from "../../assets/images/wvs/wvs_home.png"
+import ComicsImg from "../../assets/images/comics/erik-mclean-comics.jpg"
 
 const Projects = () => {
     return(
@@ -29,17 +31,20 @@ const Projects = () => {
                         projectLink="./LaHistoria"
                     />
                     <ProjectCard
+                        imgPath={RhythmryImg}
                         title="Rhythmry"
-                        description="Website redesign for Ancient Spanish Monastery, a local historical site based in North Miami, Florida."
+                        description="Rhythmry is a music app with unique features focused on the connections between humans and music."
                         projectLink="./Rhythmry"
                     />
                     <ProjectCard
-                        title="WVS Data Mapping"
-                        description="Website redesign for Ancient Spanish Monastery, a local historical site based in North Miami, Florida."
+                        imgPath={WVSImg}
+                        title="WVS Mapping Project"
+                        description="Dataset analysis project on World Values Survey's mid-2017 to 2021 data using ArcGIS."
                         projectLink="./WVS"
                     /><ProjectCard
+                        imgPath={ComicsImg}
                         title="Graphic Novels"
-                        description="Website redesign for Ancient Spanish Monastery, a local historical site based in North Miami, Florida."
+                        description="Dataset analysis project on Graphic Narrative Corpus's graphic novels dataset using Python."
                         projectLink="./Comics"
                     />
                     <ProjectCard

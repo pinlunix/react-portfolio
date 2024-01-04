@@ -1,5 +1,6 @@
 // Rhythmry
 import "./projectStyle.scss"
+import HeaderImg from ".././assets/images/rhythmry/c-d-x-_music.jpg"
 import UserPersona from ".././assets/images/rhythmry/persona_1.png"
 import UserJourney from ".././assets/images/rhythmry/persona1_journeymap.png"
 import WireflowPlaylist from ".././assets/images/rhythmry/edit_playlist_wireflow.png"
@@ -10,7 +11,7 @@ function Rhythmry() {
     return(
         <div className="viewing-section">
             <h1 style={{textAlign:"center"}}>Rhythmry</h1>
-            {/* Insert image */}
+            <img style={{width:"90%", marginTop:"10px", marginBottom:"10px"}} src={ HeaderImg } alt="Image of headphones" />
             <div className="center">
                 <button>
                     <a

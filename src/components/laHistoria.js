@@ -11,7 +11,7 @@ function LaHistoria() {
     return(
         <div className="viewing-section">
             <h1 style={{textAlign:"center"}}>La Historia Historical Society Museum</h1>
-            <img style={{width:"100%", marginTop:"10px", marginBottom:"10px"}} src={ Museum } alt="La Historia Museum Home Page" />
+            <img style={{width:"90%", marginTop:"10px", marginBottom:"10px"}} src={ Museum } alt="La Historia Museum Home Page" />
             <div className="center">
                 <button>
                     <a

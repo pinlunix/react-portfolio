@@ -9,18 +9,10 @@ function Plane() {
             <div className="center">
                 <button>
                     <a
-                        href=""
+                        href="https://airlinesafety22.humspace.ucla.edu/"
                         target="_blank"
                     >
-                        Full Case Study
-                    </a>
-                </button>
-                <button>
-                    <a
-                        href=""
-                        target="_blank"
-                    >
-                        High-Fidelity Prototype
+                        Visit Website
                     </a>
                 </button>
             </div>
