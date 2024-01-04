@@ -6,6 +6,8 @@ import LaHistoriaImg from "../../assets/images/lahistoria/lahistoria.png"
 import RhythmryImg from "../../assets/images/rhythmry/c-d-x-_music.jpg"
 import WVSImg from "../../assets/images/wvs/wvs_home.png"
 import ComicsImg from "../../assets/images/comics/erik-mclean-comics.jpg"
+import PlaneImg from "../../assets/images/plane/ross-parmly-airplane.jpg"
+import DebuggerImg from "../../assets/images/debugger/debugger_home.png"
 
 const Projects = () => {
     return(
@@ -48,11 +50,13 @@ const Projects = () => {
                         projectLink="./Comics"
                     />
                     <ProjectCard
-                        title="Plane Accidents"
-                        description="Website redesign for Ancient Spanish Monastery, a local historical site based in North Miami, Florida."
+                        imgPath={PlaneImg}
+                        title="Aviation Safety"
+                        description="Digital humanities project analyzing airline accident records dataset from the Aviation Safety Network."
                         projectLink="./Plane"
                     />
                     <ProjectCard
+                        imgPath={DebuggerImg}
                         title="Debugger"
                         description="Website redesign for Ancient Spanish Monastery, a local historical site based in North Miami, Florida."
                         projectLink="./DebuggerGame"

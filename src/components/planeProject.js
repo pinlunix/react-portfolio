@@ -1,11 +1,14 @@
 // Plane Project
 import "./projectStyle.scss"
+import HeaderImage from ".././assets/images/plane/ross-parmly-airplane.jpg"
+import Scatterplot from ".././assets/images/plane/incidents_accidents_plot.png"
 
 function Plane() {
     return(
         <div className="viewing-section">
             <h1 style={{textAlign:"center"}}>Aviation Safety</h1>
             {/* Insert image */}
+            <img style={{width:"90%", marginTop:"10px", marginBottom:"10px"}} src={ HeaderImage } alt="Mapping Project Website Screenshot" />
             <div className="center">
                 <button>
                     <a
@@ -56,6 +59,12 @@ function Plane() {
                     scatterplot showing the correlation between incidents and fatal accidents from 1985-2014.
                 </p>
                 {/* scatterplot image */}
+                <div className="center">
+                    <figure>
+                        <img style={{width:"40%"}} src={ Scatterplot } alt="Scatterplot showing Airline Incidents vs Fatal Accidents" />
+                        <figcaption>Scatterplot of Airline Incidents vs Fatal Accidents</figcaption>
+                    </figure>
+                </div>
                 <p>
                     I observed from the scatterplot a positive correlation, meaning as more incidents occur, more fatal accidents occurs. 
                     I noted a large cluster of data points when there are less incidents and less fatal accidents, which may imply that most airlines 
@@ -77,9 +86,11 @@ function Plane() {
                     This indicates that airlines still lack adequate safety protocols, despite improvement of technology.
                 </p>
             <h2>REFLECTIONS</h2>
-                This was my first Digital Humanities project. Throughout this project, I had the opportunity to develop my skills in conducting research on datasets. 
-                I learned how to use Tableau to create visualizations from data and learned how to analyze the data from a humanities perspective. 
-                This project allowed me to think from a humanities point of view and combine the usage of data visualization technologies to tell a story.
+                <p>
+                    This was my first Digital Humanities project. Throughout this project, I had the opportunity to develop my skills in conducting research on datasets. 
+                    I learned how to use Tableau to create visualizations from data and learned how to analyze the data from a humanities perspective. 
+                    This project allowed me to think from a humanities point of view and combine the usage of data visualization technologies to tell a story.
+                </p>
         </div>
     )
 }

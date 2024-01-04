@@ -119,6 +119,12 @@ figure{
     margin-top: 10px;
     margin-bottom: 10px;
     width: 90%;
+
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
 }
 
 figcaption {
@@ -128,3 +134,9 @@ figcaption {
     padding: 2px;
     text-align: center;
 }
+
+.img-container {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
