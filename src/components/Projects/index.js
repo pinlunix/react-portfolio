@@ -8,6 +8,7 @@ import WVSImg from "../../assets/images/wvs/wvs_home.png"
 import ComicsImg from "../../assets/images/comics/erik-mclean-comics.jpg"
 import PlaneImg from "../../assets/images/plane/ross-parmly-airplane.jpg"
 import DebuggerImg from "../../assets/images/debugger/debugger_home.png"
+import UGGImg from "../../assets/images/ugg/title_screen.png"
 
 const Projects = () => {
     return(
@@ -58,12 +59,13 @@ const Projects = () => {
                     <ProjectCard
                         imgPath={DebuggerImg}
                         title="Debugger"
-                        description="Website redesign for Ancient Spanish Monastery, a local historical site based in North Miami, Florida."
+                        description="2D pixel puzzle game based on the premise “catch bugs to fix bugs.” Made with Unity."
                         projectLink="./DebuggerGame"
                     />
                     <ProjectCard
+                        imgPath={UGGImg}
                         title="Untitled Gacha Game"
-                        description="Website redesign for Ancient Spanish Monastery, a local historical site based in North Miami, Florida."
+                        description="Rhythm gacha game themed around Chinese zodiacs. Made with Unity."
                         projectLink="./UGG"
                     />
                     {/* <ProjectCard

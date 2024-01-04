@@ -126,7 +126,7 @@ function LaHistoria() {
                     and selected Wordpress.org, Webflow, and Google Sites as our recommendations to the La Historia Board. 
                     We created demo videos explaining how to use each CMS.
                 </p>
-                <p>My demo video about Wordpress.org: <a href="https://youtu.be/C5KhDBjIp-0?si=TpZ2WuYMyeP3aiKD">Wordpress Demo</a></p>
+                <p>My demo video about Wordpress.org: <a href="https://youtu.be/C5KhDBjIp-0?si=TpZ2WuYMyeP3aiKD" target="_blank">Wordpress Demo</a></p>
                 <p>
                     In the end, Google Sites was selected as our CMS.
                 </p>
