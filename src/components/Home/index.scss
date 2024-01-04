@@ -11,7 +11,7 @@
 
         .text{
             margin-top: 120px;
-            margin-left: 120px;
+            margin-left: 80px;
         }
     }
 
@@ -30,7 +30,7 @@
     }
 
     h1{
-        color: white;
+        color: #F5D8C7;
         font-size: 53px;
         margin: 0;
         font-family: 'Coolvetica';
@@ -40,7 +40,7 @@
 
 
 .homeh2{
-    color: #8d8d8d;
+    color: #DBA5AF;
     margin-top: 20px;
     margin-left: 0px;
     font-weight: 400;
@@ -69,7 +69,7 @@
     }
 }
 
-.home-projects{
+.home-about{
     position: block;
     display: flex;
     flex-direction: row;
@@ -80,22 +80,35 @@
         float: left;
 
         .section-name{
-            color: white;
+            color: #F5D8C7;
             font-size: 36px;
             margin: 0;
-            margin-left: 120px;
+            margin-left: 80px;
             font-family: 'Coolvetica';
             font-weight: 400; 
+            letter-spacing: 4px;
         }
 
-        .projects-overview{
-            margin-left: 120px;
-            margin-top: 20px;
-            p{
-                color: white;
-                font-size: 18px;
-                font-weight: 400;
-            }
+        .section-text{
+            color: white;
+            font-size: 18px;
+            margin: 0;
+            margin-left: 80px;
+            margin-right: 80px;
+            font-family: 'Lato';
+            font-weight: 400;
+            letter-spacing: 0.2px;
+        }
+
+        .section-text-bottom{
+            color: white;
+            font-size: 18px;
+            margin: 0;
+            margin-left: 80px;
+            margin-right: 80px;
+            font-family: 'Lato';
+            font-weight: bold;
+            letter-spacing: 0.2px;
         }
     }
 }

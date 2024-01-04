@@ -7,7 +7,7 @@
 }
 
 .project-card-view{
-    box-shadow: 0 4px 5px 3px darkorchid;
+    box-shadow: 0 4px 5px 3px orchid;
     color: white;
     background-color: transparent;
     opacity: 0.9;
@@ -18,7 +18,7 @@
 .project-card-view:hover{
     transform: scale(1.02);
     overflow: hidden;
-    box-shadow: 0 4px 4px 5px darkorchid;
+    box-shadow: 0 4px 4px 5px orchid;
 }
 
 .card-img-top {
@@ -55,9 +55,14 @@
     margin: 10px;
     padding: 10px;
     color: white;
-    background: black;
+    background: #B26C9B;
     text-decoration: none;
-    border: 2px solid darkorchid;
+    border: 2px solid white;
     border-radius: 50px;
     font-size: 14px;
+
+    
+  }
+  .btn-primary:hover{
+    background: #752D70;
   }
