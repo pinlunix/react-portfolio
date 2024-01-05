@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
+import {Link, NavLink} from 'react-router-dom'
 import './index.scss';
 
 function ProjectCards(props){
@@ -12,9 +13,12 @@ function ProjectCards(props){
                 <Card.Text className="card-text" style={{ textAlign: "justify" }}>
                     {props.description}
                 </Card.Text>
-                <Button variant="primary" href={props.projectLink} target="_self">
+                <Link to={props.projectLink}>
+                    <Button variant="primary" href={props.projectLink} target="_self">
                     {"View Project"}
                 </Button>
+                </Link>
+                
             </Card.Body>
         </Card>
     )

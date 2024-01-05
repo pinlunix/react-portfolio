@@ -25,48 +25,48 @@ const Projects = () => {
                         imgPath={ASMImg}
                         title="Ancient Spanish Monastery"
                         description="Website redesign for Ancient Spanish Monastery, a local historical site based in North Miami, Florida."
-                        projectLink="./ASM"
+                        projectLink="../ASM"
                     />
                     <ProjectCard
                         imgPath={LaHistoriaImg}
                         title="La Historia Museum"
                         description="Website redesign for La Historia Museum, a local non-profit museum based in El Monte, California."
-                        projectLink="./LaHistoria"
+                        projectLink="../LaHistoria"
                     />
                     <ProjectCard
                         imgPath={RhythmryImg}
                         title="Rhythmry"
                         description="Rhythmry is a music app with unique features focused on the connections between humans and music."
-                        projectLink="./Rhythmry"
+                        projectLink="../Rhythmry"
                     />
                     <ProjectCard
                         imgPath={WVSImg}
                         title="WVS Mapping Project"
                         description="Dataset analysis project on World Values Survey's mid-2017 to 2021 data using ArcGIS."
-                        projectLink="./WVS"
+                        projectLink="../WVS"
                     /><ProjectCard
                         imgPath={ComicsImg}
                         title="Graphic Novels"
                         description="Dataset analysis project on Graphic Narrative Corpus's graphic novels dataset using Python."
-                        projectLink="./Comics"
+                        projectLink="../Comics"
                     />
                     <ProjectCard
                         imgPath={PlaneImg}
                         title="Aviation Safety"
                         description="Digital humanities project analyzing airline accident records dataset from the Aviation Safety Network."
-                        projectLink="./Plane"
+                        projectLink="../Plane"
                     />
                     <ProjectCard
                         imgPath={DebuggerImg}
                         title="Debugger"
                         description="2D pixel puzzle game based on the premise “catch bugs to fix bugs.” Made with Unity."
-                        projectLink="./DebuggerGame"
+                        projectLink="../DebuggerGame"
                     />
                     <ProjectCard
                         imgPath={UGGImg}
                         title="Untitled Gacha Game"
                         description="Rhythm gacha game themed around Chinese zodiacs. Made with Unity."
-                        projectLink="./UGG"
+                        projectLink="../UGG"
                     />
                     {/* <ProjectCard
                         title="Ancient Spanish Monastery"
