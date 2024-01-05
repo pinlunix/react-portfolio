@@ -1,11 +1,11 @@
 // ACM Studios SRS Untitled Gacha Game
-import "./projectStyle.scss"
+import "../projectStyle.scss"
 import Button from "react-bootstrap/Button";
-import HeaderImg from ".././assets/images/ugg/title_screen.png"
-import Card from ".././assets/images/ugg/view_card.jpg"
-import Dragon from ".././assets/images/ugg/dragon_2d_card_art_rendered.png"
-import WSnake from ".././assets/images/ugg/victoria_white_snake.png"
-import GSnake from ".././assets/images/ugg/victoria_green_snake.png"
+import HeaderImg from "../../assets/images/ugg/title_screen.png"
+import Card from "../../assets/images/ugg/view_card.jpg"
+import Dragon from "../../assets/images/ugg/dragon_2d_card_art_rendered.png"
+import WSnake from "../../assets/images/ugg/victoria_white_snake.png"
+import GSnake from "../../assets/images/ugg/victoria_green_snake.png"
 
 function UGG() {
     return(

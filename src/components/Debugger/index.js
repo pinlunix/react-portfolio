@@ -1,15 +1,15 @@
 // ACM Studios SRS Debugger
-import "./projectStyle.scss"
+import "../projectStyle.scss"
 import Button from "react-bootstrap/Button";
-import HeaderImg from ".././assets/images/debugger/debugger_home.png"
-import Clover from ".././assets/images/debugger/clover_npc_concept.png"
-import CloverLevel from ".././assets/images/debugger/clover_level.png"
-import Tilemap from ".././assets/images/debugger/tilemap.png"
-import GameImg from ".././assets/images/debugger/game_screenshot.png"
-import Glitch from ".././assets/images/debugger/glitch_tileset.png"
-import GlitchLevel from ".././assets/images/debugger/glitch_level.png"
-import Cube from ".././assets/images/debugger/round-cube.png"
-import LevelMap from ".././assets/images/debugger/level_map.png"
+import HeaderImg from "../../assets/images/debugger/debugger_home.png"
+import Clover from "../../assets/images/debugger/clover_npc_concept.png"
+import CloverLevel from "../../assets/images/debugger/clover_level.png"
+import Tilemap from "../../assets/images/debugger/tilemap.png"
+import GameImg from "../../assets/images/debugger/game_screenshot.png"
+import Glitch from "../../assets/images/debugger/glitch_tileset.png"
+import GlitchLevel from "../../assets/images/debugger/glitch_level.png"
+import Cube from "../../assets/images/debugger/round-cube.png"
+import LevelMap from "../../assets/images/debugger/level_map.png"
 
 function DebuggerGame() {
     return(

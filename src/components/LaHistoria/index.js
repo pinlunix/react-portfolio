@@ -1,11 +1,11 @@
 // HUE Internship: La Historia Project
-import "./projectStyle.scss"
+import "../projectStyle.scss"
 import Button from "react-bootstrap/Button";
-import Museum from ".././assets/images/lahistoria/lahistoria.png"
-import UserPersona from ".././assets/images/lahistoria/jessica_persona_james.png"
-import UserJourney from ".././assets/images/lahistoria/jessica_journey_james.png"
-import Exhibitions from ".././assets/images/lahistoria/exhibitions_page.png"
-import Support from ".././assets/images/lahistoria/support_page.png"
+import Museum from "../../assets/images/lahistoria/lahistoria.png"
+import UserPersona from "../../assets/images/lahistoria/jessica_persona_james.png"
+import UserJourney from "../../assets/images/lahistoria/jessica_journey_james.png"
+import Exhibitions from "../../assets/images/lahistoria/exhibitions_page.png"
+import Support from "../../assets/images/lahistoria/support_page.png"
 
 
 function LaHistoria() {

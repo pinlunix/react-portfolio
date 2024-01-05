@@ -1,12 +1,12 @@
 // Rhythmry
-import "./projectStyle.scss"
+import "../projectStyle.scss"
 import Button from "react-bootstrap/Button";
-import HeaderImg from ".././assets/images/rhythmry/c-d-x-_music.jpg"
-import UserPersona from ".././assets/images/rhythmry/persona_1.png"
-import UserJourney from ".././assets/images/rhythmry/persona1_journeymap.png"
-import WireflowPlaylist from ".././assets/images/rhythmry/edit_playlist_wireflow.png"
-import DesignSys from ".././assets/images/rhythmry/ver2_design_system.png"
-import Playlist from ".././assets/images/rhythmry/ver2_playlist_highlight.png"
+import HeaderImg from "../../assets/images/rhythmry/c-d-x-_music.jpg"
+import UserPersona from "../../assets/images/rhythmry/persona_1.png"
+import UserJourney from "../../assets/images/rhythmry/persona1_journeymap.png"
+import WireflowPlaylist from "../../assets/images/rhythmry/edit_playlist_wireflow.png"
+import DesignSys from "../../assets/images/rhythmry/ver2_design_system.png"
+import Playlist from "../../assets/images/rhythmry/ver2_playlist_highlight.png"
 
 function Rhythmry() {
     return(

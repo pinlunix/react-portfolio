@@ -1,8 +1,8 @@
 // WVS Mapping Project
-import "./projectStyle.scss"
+import "../projectStyle.scss"
 import Button from "react-bootstrap/Button";
-import HeaderImage from ".././assets/images/wvs/wvs_home.png"
-import Abortion from ".././assets/images/wvs/abortion_map.png"
+import HeaderImage from "../../assets/images/wvs/wvs_home.png"
+import Abortion from "../../assets/images/wvs/abortion_map.png"
 
 function WVS() {
     return(

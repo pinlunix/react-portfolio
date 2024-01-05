@@ -1,10 +1,10 @@
 // Graphic Novels
-import "./projectStyle.scss"
+import "../projectStyle.scss"
 import Button from "react-bootstrap/Button";
-import HeaderImg from ".././assets/images/comics/erik-mclean-comics.jpg"
-import ExploreBookTable from ".././assets/images/comics/explore_book.png"
-import ExploreBookGraph from ".././assets/images/comics/explore_book_graph.png"
-import GenderPie from ".././assets/images/comics/gender_pie.png"
+import HeaderImg from "../../assets/images/comics/erik-mclean-comics.jpg"
+import ExploreBookTable from "../../assets/images/comics/explore_book.png"
+import ExploreBookGraph from "../../assets/images/comics/explore_book_graph.png"
+import GenderPie from "../../assets/images/comics/gender_pie.png"
 
 function Comics() {
     return(

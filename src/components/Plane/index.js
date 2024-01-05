@@ -1,8 +1,8 @@
 // Plane Project
-import "./projectStyle.scss"
+import "../projectStyle.scss"
 import Button from "react-bootstrap/Button";
-import HeaderImage from ".././assets/images/plane/ross-parmly-airplane.jpg"
-import Scatterplot from ".././assets/images/plane/incidents_accidents_plot.png"
+import HeaderImage from "../../assets/images/plane/ross-parmly-airplane.jpg"
+import Scatterplot from "../../assets/images/plane/incidents_accidents_plot.png"
 
 function Plane() {
     return(
