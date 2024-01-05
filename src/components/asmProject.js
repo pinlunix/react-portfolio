@@ -10,7 +10,7 @@ import DesignSys from ".././assets/images/asm/design_system.png"
 import Gallery from ".././assets/images/asm/gallery_page.png"
 import Visit from ".././assets/images/asm/visit_page.png"
 
-function ASM() {
+function ASM2() {
     return(
         <div className="viewing-section">
             <h1 style={{textAlign:"center"}}>Ancient Spanish Monastery</h1>
@@ -173,4 +173,4 @@ function ASM() {
     )
 }
 
-export default ASM
+export default ASM2
