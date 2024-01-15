@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.087b7b82.css",
-    "main.js": "/react-portfolio/static/js/main.5dbbf516.js",
+    "main.css": "/react-portfolio/static/css/main.cede7933.css",
+    "main.js": "/react-portfolio/static/js/main.2eef3f30.js",
     "static/js/787.cf482a7c.chunk.js": "/react-portfolio/static/js/787.cf482a7c.chunk.js",
     "static/media/title_screen.png": "/react-portfolio/static/media/title_screen.a91670d7d5ede17847de.png",
     "static/media/erik-mclean-comics.jpg": "/react-portfolio/static/media/erik-mclean-comics.4224367f268ce95a46d0.jpg",
@@ -46,12 +46,12 @@
     "static/media/explore_book_graph.png": "/react-portfolio/static/media/explore_book_graph.2278858ae61ad5e8ddbc.png",
     "static/media/CoolveticaRg-Regular.woff2": "/react-portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/react-portfolio/index.html",
-    "main.087b7b82.css.map": "/react-portfolio/static/css/main.087b7b82.css.map",
-    "main.5dbbf516.js.map": "/react-portfolio/static/js/main.5dbbf516.js.map",
+    "main.cede7933.css.map": "/react-portfolio/static/css/main.cede7933.css.map",
+    "main.2eef3f30.js.map": "/react-portfolio/static/js/main.2eef3f30.js.map",
     "787.cf482a7c.chunk.js.map": "/react-portfolio/static/js/787.cf482a7c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.087b7b82.css",
-    "static/js/main.5dbbf516.js"
+    "static/css/main.cede7933.css",
+    "static/js/main.2eef3f30.js"
   ]
 }
