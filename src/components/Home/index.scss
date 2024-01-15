@@ -5,23 +5,27 @@
     height: 100%;
     width: 100%;
 
+
     .text-zone {
         float: left;
         width: 50%;
 
+        margin-left: 200px;
+        margin-right: 200px;
+
         .text{
             margin-top: 120px;
-            margin-left: 80px;
         }
     }
 
     .profile-picture {
         float: right;
         width: 50%;
+        margin-right: 200px;
 
         img {
             margin-top: 120px;
-            margin-left: 25%;
+            margin-left: auto;
             border-radius: 50%;
             border: 2px solid white;
             width: 360px;
@@ -49,7 +53,7 @@
     animation: fadeIn 1s 1.8s backwards;
 }
 
-.home-about{
+.home-projects{
     position: block;
     display: flex;
     flex-direction: row;
@@ -66,7 +70,8 @@
             color: #F5D8C7;
             font-size: 36px;
             margin: 0;
-            margin-left: 80px;
+            margin-left: 200px;
+            margin-right: 200px;
             font-family: 'Coolvetica';
             font-weight: 400; 
             letter-spacing: 4px;
@@ -76,22 +81,17 @@
             color: white;
             font-size: 18px;
             margin: 0;
-            margin-left: 80px;
-            margin-right: 80px;
+            margin-left: 200px;
+            margin-right: 200px;
             font-family: 'Lato';
             font-weight: 400;
             letter-spacing: 0.2px;
         }
 
-        .section-text-bottom{
-            color: white;
-            font-size: 18px;
-            margin: 0;
-            margin-left: 80px;
-            margin-right: 80px;
-            font-family: 'Lato';
-            font-weight: bold;
-            letter-spacing: 0.2px;
+        .home-grid{
+            display: grid;
+            grid-template: auto / 350px 350px 350px; // rowN / columnN
+            grid-gap: 40px 20px;
         }
     }
 }
