@@ -4,6 +4,7 @@ import Layout from './components/Layout'
 import Home from './components/Home'
 import Projects from './components/Projects'
 import Resume from './components/Resume'
+import About from './components/About'
 import ASM from './components/ASM'
 import Comics from './components/Comics'
 import LaHistoria from './components/LaHistoria'
@@ -22,6 +23,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/resume" element={<Resume />} />
+        <Route path="/about" element={<About />} />
         
         <Route path="/ASM" element={<ASM />} />
         <Route path="/LaHistoria" element={<LaHistoria />} />

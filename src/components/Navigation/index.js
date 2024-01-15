@@ -22,6 +22,9 @@ const Navigation = () => (
             <NavLink exact="true" activeclassname="active" className="resume-link" to="/resume">
                 Resume
             </NavLink>
+            <NavLink exact="true" activeclassname="active" className="about-link" to="/about">
+                About
+            </NavLink>
         </nav>
         <ul>
             <li>

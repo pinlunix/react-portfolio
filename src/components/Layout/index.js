@@ -1,5 +1,6 @@
 import './index.scss';
 import Navigation from '../Navigation';
+import Footer from '../Footer'
 import { Outlet } from 'react-router-dom'
 
 const Layout = () => {
@@ -9,6 +10,7 @@ const Layout = () => {
         <div className='page'>
             <Outlet />
         </div>
+        <Footer />
     </div>
     )
 }

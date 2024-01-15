@@ -7,7 +7,8 @@
 }
 
 .project-card-view{
-    box-shadow: 0 4px 5px 3px orchid;
+    // box-shadow: 0 4px 5px 3px orchid;
+    border: 2px solid orchid;
     color: white;
     background-color: transparent;
     opacity: 0.9;
@@ -31,6 +32,11 @@
     height: 150px;
     opacity: 0.8 !important;
     border-radius: 10px;
+  }
+
+  .card-text-zone{
+    margin-left: 25px;
+    margin-right: 25px;
   }
 
   .card-title{
@@ -57,7 +63,7 @@
     color: white;
     background: #B26C9B;
     text-decoration: none;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 50px;
     font-size: 14px;
     min-width: 200px;

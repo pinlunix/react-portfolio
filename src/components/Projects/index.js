@@ -47,7 +47,7 @@ const Projects = () => {
                     /><ProjectCard
                         imgPath={ComicsImg}
                         title="Graphic Novels"
-                        description="Dataset analysis project on Graphic Narrative Corpus's graphic novels dataset using Python."
+                        description="Dataset analysis project on Graphic Narrative Corpus's graphic novels dataset using Python to analyze datasets and create visualizations."
                         projectLink="../Comics"
                     />
                     <ProjectCard

@@ -1,0 +1,28 @@
+.about-section{
+    position: relative !important;
+    padding-top: 80px !important;
+    padding-bottom: 30px !important;
+    background-image: var(--section-background-color) !important;
+}
+
+.section-text{
+    color: white;
+    font-size: 18px;
+    margin: 0;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-family: 'Lato';
+    font-weight: 400;
+    letter-spacing: 0.2px;
+}
+
+.section-text-bottom{
+    color: white;
+    font-size: 18px;
+    margin: 0;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-family: 'Lato';
+    font-weight: bold;
+    letter-spacing: 0.2px;
+}
