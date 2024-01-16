@@ -10,7 +10,7 @@
     // box-shadow: 0 4px 5px 3px orchid;
     border: 2px solid orchid;
     color: white;
-    background-color: transparent;
+    background-color: #752D70;
     opacity: 0.9;
     transition: all 0.5s ease 0s;
     height: 100%;
@@ -60,15 +60,14 @@
     align-items: center;
     margin: 10px;
     padding: 10px;
-    color: white;
-    background: #B26C9B;
+    color: #3D0539;
+    background: #F5D8C7;
     text-decoration: none;
-    border: 1px solid white;
+    border: 1px solid #3D0539;
     border-radius: 50px;
     font-size: 14px;
     min-width: 200px;
-    
   }
   .btn-primary:hover{
-    background: #752D70;
+    box-shadow: #3d3d3d 2px 2px 5px 0px inset;
   }
