@@ -3,6 +3,7 @@ import Avatar from '../../assets/images/profile_pic.jpg'
 import Button from "react-bootstrap/Button";
 import { Row } from "react-bootstrap";
 import ProjectCard from "../ProjectCards"
+import {Link, NavLink} from 'react-router-dom'
 
 import LaHistoriaImg from "../../assets/images/lahistoria/lahistoria.png"
 import RhythmryImg from "../../assets/images/rhythmry/c-d-x-_music.jpg"
@@ -47,7 +48,7 @@ const Home = () => {
                             Here are a few projects I've worked on recently:
                         </div>
                         <br/>
-                        <div style={{ marginLeft:"200px", marginRight:"200px", marginBottom:"40px" }}>
+                        <div style={{ marginLeft:"200px", marginRight:"200px" }}>
                             <Row style={{ justifyContent: "center", paddingBottom: "10px" }} className="home-grid">
                                 <ProjectCard
                                     imgPath={LaHistoriaImg}
@@ -72,6 +73,15 @@ const Home = () => {
                                 />
                             </Row>
                         </div>
+                        <div style={{display:"flex", justifyContent:"center", marginBottom: "10px"}}>
+                            <Button
+                                href="/#projects"
+                                target="_self"
+                            >
+                                More Projects
+                            </Button>
+                        </div>
+                        
                     </div>
                 </div>
             </div> 
