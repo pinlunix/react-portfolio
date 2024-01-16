@@ -75,7 +75,7 @@ const Home = () => {
                         </div>
                         <div style={{display:"flex", justifyContent:"center", marginBottom: "10px"}}>
                             <Button
-                                href="/#projects"
+                                href="/react-portfolio/#/projects"
                                 target="_self"
                             >
                                 More Projects
