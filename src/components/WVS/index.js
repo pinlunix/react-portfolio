@@ -14,16 +14,25 @@ function WVS() {
                     variant="primary"
                     href="https://storymaps.arcgis.com/stories/505321c54baf42b08766c95823e3b5cd"
                     target="_blank"
-                    style={{ maxWidth: "250px", color:"white" }}
+                    style={{ color: "#3D0539", background: "#F5D8C7" }}
                 >
                     Visit Website
                 </Button>
             </div>
-            <div className="project-info">
-                <div className="subtitle">PROJECT MEMBERS</div>
+            <div className="row" style={{display:"flex"}}>
+                <div className="column" style={{flex:"50%"}}>
+                    <div className="subtitle">PROJECT MEMBERS</div>
                     <div className="sub-text">
                         Xinran Fang, Jonathan King, <span class="bolded">Victoria Lam</span>, Shiqi Ouyang, Natanael Wijaya
                     </div>
+                </div>
+                <div className="column" style={{flex:"50%"}}>
+                    <div className="subtitle">PROJECT ROLES</div>
+                    <div className="sub-text">
+                        Project Manager, Web Specialist, Content Developer, Mapping Specialist, Data Specialist
+                    </div>
+                </div>
+                
             </div>
             <h2>CONTEXT</h2>
                 <p>

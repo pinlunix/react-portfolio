@@ -15,17 +15,27 @@ function Plane() {
                     variant="primary"
                     href="https://airlinesafety22.humspace.ucla.edu/"
                     target="_blank"
-                    style={{ maxWidth: "250px", color:"white" }}
+                    style={{ color: "#3D0539", background: "#F5D8C7" }}
                 >
                     Visit Website
                 </Button>
             </div>
-            <div className="project-info">
-                <div className="subtitle">PROJECT MEMBERS</div>
+            <div className="row" style={{display:"flex"}}>
+                <div className="column" style={{flex:"50%"}}>
+                    <div className="subtitle">PROJECT MEMBERS</div>
                     <div className="sub-text">
                         Tiffany Deng, <span class="bolded">Victoria Lam</span>, Lauren Lee, Aman Singh, Christopher Thornton
                     </div>
+                </div>
+                <div className="column" style={{flex:"50%"}}>
+                    <div className="subtitle">PROJECT ROLES</div>
+                    <div className="sub-text">
+                        Project Manager, Data Specialist, Content Developer, Web Designer, Editor
+                    </div>
+                </div>
+                
             </div>
+            
             <h2>CONTEXT</h2>
                 <p>
                     Our project investigates the possible correlations between airlines and their incidents in the time periods of 1985-1999 and 2000-2014. 

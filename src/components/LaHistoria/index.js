@@ -18,25 +18,33 @@ function LaHistoria() {
                     variant="primary"
                     href="https://www.lahistoriamuseum.org/"
                     target="_blank"
-                    style={{ maxWidth: "250px", color:"white" }}
+                    style={{ color: "#3D0539", background: "#F5D8C7" }}
                 >
                     Visit Website
                 </Button>
             </div>
-            <div className="project-info">
-                <div className="subtitle">CLIENT</div>
+            <div className="row" style={{display:"flex"}}>
+                <div className="column" style={{flex:"50%"}}>
+                    <div className="subtitle">CLIENT</div>
                     <div className="sub-text">
                         La Historia Historical Society Museum
                         October 2022 - October 2023
                     </div>
-                <div className="subtitle">PROJECT MEMBERS</div>
-                    <div className="sub-text">
-                        James Yoon, Sookie Cho, Alexandra Lansing, Lindsay Harrison, Cassidy Tu, <span class="bolded">Victoria Lam</span>, Gaby Sumilang, Annmarie Cong, Justin Grant
-                    </div>
-                <div className="subtitle">ORG</div>
+                    <div className="subtitle">ORG</div>
                     <div className="sub-text">
                         UCLA Humans in User Experience
                     </div>
+                </div>
+                <div className="column" style={{flex:"50%"}}>
+                    <div className="subtitle">PROJECT MEMBERS</div>
+                    <div className="sub-text">
+                        James Yoon, Sookie Cho, Alexandra Lansing, Lindsay Harrison, Cassidy Tu, <span class="bolded">Victoria Lam</span>, Gaby Sumilang, Annmarie Cong, Justin Grant
+                    </div>
+                    <div className="subtitle">PROJECT ROLES</div>
+                    <div className="sub-text">
+                        Advisor, User Research, UX Storytelling, Interface Design, Prototyping, (Interactive) Prototyping, User Testing
+                    </div>
+                </div>
             </div>
             <h2>CONTEXT</h2>
                 <p>
@@ -45,7 +53,7 @@ function LaHistoria() {
                 </p>
                 <h3>MY ROLE</h3>
                     <p>
-                        As a UX/UI Researcher, my responsibilities include field research, working with the stakeholders to 
+                        As a User Researcher, my responsibilities include field research, working with the stakeholders to 
                         identify goals and requirements, and researching CMS.
                     </p>
                 <h3>PROJECT DELIVERABLES</h3>

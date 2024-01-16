@@ -20,7 +20,7 @@ function ASM() {
                     variant="primary"
                     href="https://www.figma.com/proto/5jONNrPhVw589eSnmhchYk/Project-Portfolio?node-id=1-2&starting-point-node-id=1%3A2&scaling=scale-down-width&mode=design&t=U4gEabobrPRLYcUk-1"
                     target="_blank"
-                    style={{ maxWidth: "250px", color:"white" }}
+                    style={{ color: "#3D0539", background: "#F5D8C7" }}
                 >
                     Full Case Study
                 </Button>
@@ -28,7 +28,7 @@ function ASM() {
                     variant="primary"
                     href="https://www.figma.com/proto/FGPD8ANQnTUSHTXnMEhYad/High-Fidelity-Prototype?node-id=1-980&starting-point-node-id=1%3A980&mode=design&t=sGg4VvpBDo7aoo58-1"
                     target="_blank"
-                    style={{ maxWidth: "250px", color:"white" }}
+                    style={{ color: "#3D0539", background: "#F5D8C7" }}
                 >
                     High-Fidelity Prototype
                 </Button>

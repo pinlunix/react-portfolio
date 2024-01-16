@@ -4,7 +4,7 @@ const Footer = () => {
     return(
         <div className="footer-section">
             <div className="footer-text">
-                Made with love by Victoria Lam
+                Made with love by Me/Victoria Lam
             </div>
         </div>
     )

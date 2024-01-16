@@ -21,16 +21,25 @@ function DebuggerGame() {
                     variant="primary"
                     href="https://raddishradish.itch.io/debugger"
                     target="_blank"
-                    style={{ maxWidth: "250px", color:"white" }}
+                    style={{ color: "#3D0539", background: "#F5D8C7" }}
                 >
                     View Website
                 </Button>
             </div>
-            <div className="project-info">
-                <div className="subtitle">PROJECT MEMBERS</div>
+            <div className="row" style={{display:"flex"}}>
+                <div className="column" style={{flex:"50%"}}>
+                    <div className="subtitle">PROJECT MEMBERS</div>
                     <div className="sub-text">
                         Alexander Chen, Zane Clark, Spencer Gouw, Mike Han, Kevin Hong, Ray Hsiao, Amber Jiang, <span class="bolded">Victoria Lam</span>, Brad Lowe, Felix Peng, Anbu Vajuravel, Andrew Zhu
                     </div>
+                </div>
+                <div className="column" style={{flex:"50%"}}>
+                    <div className="subtitle">PROJECT ROLES</div>
+                    <div className="sub-text">
+                        Team Lead, Art Director, Technical Lead, Concept Artist, Tilemap Artist, UI Artist, Sprite Artist, UI Programmer, UI Designer, Gameplay Programmer, Writer, Composer, Puzzle Designer, Software Architect
+                    </div>
+                </div>
+                
             </div>
             <h2>CONTEXT</h2>
                 <p>

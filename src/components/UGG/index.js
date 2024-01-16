@@ -17,18 +17,26 @@ function UGG() {
                     variant="primary"
                     href="https://austinlaw8.itch.io/untitled-gacha-game"
                     target="_blank"
-                    style={{ maxWidth: "250px", color:"white" }}
+                    style={{ color: "#3D0539", background: "#F5D8C7" }}
                 >
                     View Website
                 </Button>
             </div>
-            <div className="project-info">
-                <div className="subtitle">PROJECT MEMBERS</div>
+            <div className="row" style={{display:"flex"}}>
+                <div className="column" style={{flex:"50%"}}>
+                    <div className="subtitle">PROJECT MEMBERS</div>
                     <div className="sub-text">
                         Advaith Gowrishetty, Amy Xin, Austin Burkett (FutureYou), Ayumi, Daniel Wang, Derek Jiang, Emily Pham,
                         Jennifer Ding, Justin Wang, Karen Jin, Lucy Kimber, Michael Shi, Rachie Jin, Rachel Truong, Sean (Distatikal), 
                         Sophia Choi, Sunny, Tiffany Hwang, <span class="bolded">Victoria Lam</span>
                     </div>
+                </div>
+                <div className="column" style={{flex:"50%"}}>
+                    <div className="subtitle">PROJECT ROLES</div>
+                    <div className="sub-text">
+                        Team Lead, Art Director, Technical Lead, Concept Artist, Artist, UI Programmer, UI Designer, Gameplay Programmer, Writer, Composer, Level Designer
+                    </div>
+                </div>
             </div>
             <h2>CONTEXT</h2>
                 <p>

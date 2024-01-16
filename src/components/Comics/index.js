@@ -16,7 +16,7 @@ function Comics() {
                     variant="primary"
                     href="https://pinlunix.github.io/dh140blog/posts/GNCProject.html"
                     target="_blank"
-                    style={{ maxWidth: "250px", color:"white" }}
+                    style={{ color: "#3D0539", background: "#F5D8C7" }}
                 >
                     Visit Website
                 </Button>

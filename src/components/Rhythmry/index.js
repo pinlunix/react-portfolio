@@ -18,7 +18,7 @@ function Rhythmry() {
                     variant="primary"
                     href="https://pinlunix.github.io/dh199/"
                     target="_blank"
-                    style={{ maxWidth: "250px", color:"white" }}
+                    style={{ color: "#3D0539", background: "#F5D8C7" }}
                 >
                     Full Case Study
                 </Button>
@@ -26,7 +26,7 @@ function Rhythmry() {
                     variant="primary"
                     href="https://xd.adobe.com/view/3d1b72e1-1ee8-44dd-9409-06a3c1781455-6848/"
                     target="_blank"
-                    style={{ maxWidth: "250px", color:"white" }}
+                    style={{ color: "#3D0539", background: "#F5D8C7" }}
                 >
                     High-Fidelity Prototype
                 </Button>
@@ -133,7 +133,7 @@ function Rhythmry() {
                         variant="primary"
                         href="https://xd.adobe.com/view/3d1b72e1-1ee8-44dd-9409-06a3c1781455-6848/"
                         target="_blank"
-                        style={{ maxWidth: "250px", color:"white" }}
+                        style={{ color: "#3D0539", background: "#F5D8C7" }}
                     >
                         High-Fidelity Prototype
                     </Button>
